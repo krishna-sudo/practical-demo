@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  margin: 0 50px;
+  padding-top: 30px;
 }
 
 .App-logo {
@@ -30,4 +31,133 @@
   to {
     transform: rotate(360deg);
   }
+}
+#root{
+  background-color: #F2F4F5;
+}
+.repolist{
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: -5px 10px 60px -13px rgba(0,0,0,.2);
+  text-align: left;
+  margin-top: 50px;
+  clear: right;
+  display: inline-block;
+  width: 100%;
+}
+img.avatar{
+  border-radius: 50%;
+  width: 92px;
+  float: right;
+}
+hr{
+  border: 1px solid #e8e8e8;
+}
+.button-style{
+  border-radius: 8px;
+  padding: 0px;
+  cursor: default;
+  background: #fff!important;
+  border-color: #fff!important;
+  border: none;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.collapsible {
+  display: none;
+}
+.collapsible.open {
+  display: block;
+}
+.gridlist{
+  background-color: white;
+  text-align: center;
+  padding-left: 0px;
+  border-radius: 8px;
+  padding: 9px;
+  cursor: default;
+  border-color: #fff!important;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+.gridlist li{
+  list-style-type: none;
+  display: inline-block;
+}
+.gridlist a{
+  padding: 15px;
+  color: #000;
+}
+header{
+  display: inline-block!important;
+  width: 100%;
+}
+header .ant-select-selection{
+  border: 0px;
+  padding: 5px;
+  height: auto;
+  border-radius: 9px!important;
+}
+.ant-select-selection__placeholder{
+  color: black!important;
+}
+.days-title{
+  font-size: 1.5rem;
+  color: black;
+}
+.date{
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c757d!important;
+}
+.reponame{
+  color: #1157ed;
+  font-weight: 700;
+  font-size: 19px;
+}
+.text-muted {
+  color: #6c757d!important;
+}
+.small{
+  font-weight: 400;
+}
+.repo-body,.repo-header,.author-header{
+  margin-bottom: 15px;
+}
+.author-img img{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 8px;
+  float: left;
+  margin-right: 15px;
+}
+.author-details{
+  margin-bottom: 20px;
+}
+.author-details h5{
+  margin-bottom: 2px;
+  font-weight: 600;
+  color: #6c7583;
+  font-size: 14px;
+}
+.author-details p{
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.repo-body p{
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #6e7583;
+  height: 60px;
+}
+.repo-footer{
+  font-size: 12px;
+  /* position: absolute; */
+}
+.repogrid{
+  height: 270px;
 }
